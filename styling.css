@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  title {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    height: 80vh;
+    background-image:url(https://wallpapers.com/images/hd/dark-nature-rj2zws3ww99n2jzb.jpg);
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 30px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* keyframes animation */
+button.pulse {
+    animation: pulse 1s infinite;
+}
+  p{
+    font-size: 20px;
+    color:white;
+  }
+  
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
